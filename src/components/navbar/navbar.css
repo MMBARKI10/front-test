@@ -1,0 +1,36 @@
+.navContainer{
+  display: flex;
+    /* gap: 20px; */
+    height: 49px;
+    background-color: blueviolet;
+    gap: 52px;
+    padding: 10px 29px;
+}
+
+.logo{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+.navItems{
+  display: flex;
+  gap: 30px;
+}
+.navButton{
+  width: 100px;
+  height: 39px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  background-color: lightgrey;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+
+  
+}
+.navButton:hover{
+  background-color: transparent;
+  color: white;
+}

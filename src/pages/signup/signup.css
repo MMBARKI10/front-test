@@ -1,0 +1,83 @@
+/* .login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lInput{
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  } */
+
+  .register{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+h1{
+  text-align: center;
+  height: 24px;
+  color: teal;
+  margin-bottom: 40px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 30px ;
+  gap: 20px;
+  width: 300px;
+  background-color: white;
+  
+}
+
+input{
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+button{
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+
+  
+}
+button:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid green;
+  cursor: pointer;
+}
+p{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}

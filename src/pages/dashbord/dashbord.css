@@ -1,0 +1,22 @@
+.p-0 {
+    padding: 0!important;
+}
+.table {
+    width: 100%;
+    background-color: transparent;
+}
+.table.table-valign-middle tbody>tr>td, .table.table-valign-middle tbody>tr>th, .table.table-valign-middle thead>tr>td, .table.table-valign-middle thead>tr>th {
+    vertical-align: middle;
+    height: 66px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+table {
+    border-collapse: collapse;
+}
+
+.card-title{
+    color: rebeccapurple;
+    font-size: xx-large;
+}
